@@ -215,9 +215,11 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//"This" refers to the object that was created, which in this case is a student named Joe. In a regular function, the "this" keyword represents different objects depending on how the function was called.
+
 // 2. What is "this" when joe.scopeArrow() is invoked?
+// "This" represents the object that owns the function, which in this case is the object window. 
 //
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//In a regular function, the "this" keyword represents different objects depending on how the function was called, whereas in an arrow function "this" represents the object that owns the function, which in this case is the object window. 
 
